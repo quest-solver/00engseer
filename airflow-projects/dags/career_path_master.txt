@@ -1,0 +1,154 @@
+================================================================
+CAREER PATH MASTER — André Venâncio
+Last updated: February 2026
+Goal: Data/Software Engineer | Analytics Delivery Lead | BI Architect
+Target market: Sherbrooke/Estrie, Québec consulting, Montreal–Quebec corridor
+================================================================
+
+----------------------------------------------------------------
+CURRENT STATUS (What you already have — do not re-learn)
+----------------------------------------------------------------
+[DONE] Python (Pandas, NumPy, Sklearn, TensorFlow)
+[DONE] SQL (sufficient working level)
+[DONE] Git (basic — reinforcing now)
+[DONE] Linux basics
+[DONE] Power BI (Advanced)
+[DONE] Azure SQL + Azure Data Studio
+[DONE] Databricks Data Engineer (prep)
+[DONE] DevOps Professional Certificate (PagerDuty)
+[DONE] DevOps: Infrastructure as Code
+[DONE] Machine Learning with Python: Foundations
+[DONE] Machine Learning Specialization (Stanford/Coursera)
+[DONE] Bloomberg BMC + ESG + BFF
+[DONE] IaC concepts
+[DONE] Renault pipelines: OPC-UA ingestion, GCP, Spotfire, SAP/ERP
+[DONE] Industrial architecture: MES/MOM, CRISP-DM, A-B-C-D control model
+[DONE] GO44: maturity assessment, roadmapping, MVP design
+
+----------------------------------------------------------------
+PHASE 1 — NOW → April 2026
+Goal: Anchor pipeline + orchestration + containers. Interview-ready.
+----------------------------------------------------------------
+
+[ ] Data Engineering Foundations Professional Certificate — Astronomer/LinkedIn
+    > Currently IN PROGRESS (Module 2 of 3 — Airflow)
+    > Sub-courses inside:
+        [DONE] Learning SQL Programming
+        [DONE] Complete Guide to Python for Data Engineering
+        [ ] Hands-On Introduction: Data Engineering  <-- YOU ARE HERE
+        [ ] (remaining modules of Astronomer certificate)
+    > WHY: Anchors Airflow, pipeline thinking, orchestration logic.
+      Directly maps to your A-B-C-D delivery framework.
+
+[ ] Docker Foundations Professional Certificate — Docker/LinkedIn (3h 42m)
+    > WHY: Unlocks everything in Phase 2. Airflow runs in Docker.
+      Baseline for all modern architecture conversations in Québec.
+
+[ ] Complete Guide to SQL for Data Engineering — LinkedIn (7h 11m)
+    > WHY: SQL depth is still a decisive interview filter.
+      Do NOT fast-forward this one. Advanced querying matters.
+
+----------------------------------------------------------------
+PHASE 2 — April → August 2026
+Goal: Warehouse + transformation + GitHub credibility.
+----------------------------------------------------------------
+
+[ ] Career Essentials in GitHub Professional Certificate — GitHub/LinkedIn (4h 20m)
+    > WHY: Your repo is live (00engseer). This formalizes it.
+      GitHub Actions = free CI/CD. Enterprise credibility.
+
+[ ] Data Engineering Professional Certificate — Snowflake/LinkedIn (10h)
+    > WHY: Snowflake is widely adopted in Québec consulting + BI modernization.
+      Improves warehouse architecture language and cost governance vocabulary.
+
+[ ] dbt-core — hands-on practice (self-guided, free)
+    > WHY: Standard transformation layer in modern ELT stacks.
+      Free replacement for Synapse/Databricks SQL layer.
+    > Action: Build one dbt project locally using PostgreSQL + your Renault data model.
+
+[ ] GitHub Actions — one working pipeline in 00engseer repo
+    > WHY: Shows delivery, not just knowledge. Portfolio proof.
+
+----------------------------------------------------------------
+PHASE 3 — August 2026 → February 2027
+Goal: Cloud credibility + architecture positioning + one full deployed project.
+----------------------------------------------------------------
+
+[ ] Microsoft Azure AI Essentials Professional Certificate — Microsoft/LinkedIn (3h 23m)
+    > WHY: Azure dominates Québec industrial + public sector.
+      Strengthens cloud-native vocabulary and Azure AI Studio familiarity.
+
+[ ] Microsoft Security Essentials Professional Certificate — Microsoft/LinkedIn (3h 29m)
+    > WHY: Governance + compliance = decisive differentiator in consulting roles.
+      Aligns with your GCO/cost governance Renault experience.
+
+[ ] Career Essentials in Project Management — Microsoft/LinkedIn (13h)
+    > WHY: Bridges technical + leadership positioning.
+      Supports Analytics Delivery Lead and Product Owner targeting.
+
+[ ] Deploy one end-to-end project on Azure free tier
+    > Stack: Airflow + PostgreSQL + dbt + GitHub Actions + Azure Storage
+    > WHY: Converts all certificates into a real, demonstrable system.
+      This is your portfolio anchor for interviews.
+
+----------------------------------------------------------------
+COURSES TO CUT (do not spend time on these now)
+----------------------------------------------------------------
+[CUT] Hands-On PyTorch Machine Learning — not relevant to target roles
+[CUT] Machine Learning with Python: Logistic Regression — already covered by Stanford ML
+[CUT] Applied ML: Algorithms / Foundations — redundant with Stanford cert
+[CUT] Machine Learning Foundations: Statistics / Probability — not interview leverage now
+[CUT] Mistakes to Avoid in Machine Learning — too generic
+[CUT] Being Positive at Work — zero signal
+[CUT] Managing Team Conflict — zero signal for technical roles
+[CUT] Project Management with Microsoft Teams — too narrow/operational
+[CUT] Managing Projects with Microsoft 365 — same reason
+[CUT] Fourth Industrial Revolution: Project Management — already completed, move on
+[CUT] Career Essentials in System Administration — not your direction
+[CUT] Generative AI Professional Certificate by Snowflake — do AFTER Phase 2 if relevant
+
+----------------------------------------------------------------
+TOOLS STACK TO PRACTICE (free, no cost)
+----------------------------------------------------------------
+Core:        Python | SQL | Git | PostgreSQL
+Containers:  Docker | Docker Compose
+Storage:     MinIO (local S3 simulation)
+Orchestrate: Apache Airflow (local Docker)
+Transform:   dbt-core | DuckDB
+CI/CD:       GitHub Actions (free tier)
+Backend:     FastAPI + Pytest
+
+Cloud (Phase 3 only — map existing skills, not new concepts):
+Primary:     Azure (free tier → then trial VM)
+Secondary:   AWS (fundamentals only)
+
+----------------------------------------------------------------
+ACTIVE REPO
+----------------------------------------------------------------
+GitHub: https://github.com/quest-solver/00engseer
+Purpose: All learning projects, pipeline prototypes, portfolio work
+
+Sub-folders to create as you progress:
+  /airflow-projects
+  /dbt-projects
+  /docker-setups
+  /sql-practice
+  /portfolio-project-01
+
+----------------------------------------------------------------
+CURRENT BLOCKER (as of Feb 26, 2026)
+----------------------------------------------------------------
+Airflow installation on Windows is failing due to Linux-only path handling.
+Decision pending: WSL vs Docker for running Airflow locally.
+Recommended: Docker (aligns with Phase 1 Docker cert — kills two birds).
+
+----------------------------------------------------------------
+NOTES / DECISIONS LOG
+----------------------------------------------------------------
+[Feb 2026] Decided to use free stack first, map to Azure in Phase 3.
+[Feb 2026] Repo 00engseer created and connected to GitHub.
+[Feb 2026] Career path unified from two prior research sessions.
+
+================================================================
+END OF FILE — Update this as you complete each item.
+================================================================

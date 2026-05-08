@@ -6,10 +6,12 @@ node_modules/
 **/node_modules/
 airflow-projects/
 projects/*
-!projects/n8n-maturity/
-!projects/n8n-maturity/**
+!projects/ml-forecast-portfolio/
+!projects/ml-forecast-portfolio/**
 excalidraws/
 career_path_master.txt
 .vscode/
+.aiexclude
+.codex-local-backup/
 Citadel
 Citadel/

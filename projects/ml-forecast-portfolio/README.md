@@ -76,18 +76,17 @@ not strict replicability.
 ## Data Structure
 ```
 data/
-|-- inputs/
-|   |-- calling/
-|   |   |-- TargetXGB_calling.csv        <- target series for XGB
-|   |   `-- calling_hybrid_df.csv        <- final forecast output
-|   |-- transit/
-|   |   |-- TargetXGB_transit.csv
-|   |   `-- transit_hybrid_df.csv
-|   |-- b100/
-|   |   |-- TargetXGB_b100.csv
-|   |   `-- b100_structured_hybrid_df.csv  <- extended CI columns
-|   `-- engineered/
-|       `-- XGB_FULL_exogenous_input.csv  <- all engineered features
+|-- calling/
+|   |-- TargetXGB_scale.csv              <- target series for XGB
+|   `-- full_consumption_scale_hybrid_df.csv  <- final forecast output
+|-- transit/
+|   |-- TargetXGB_passage.csv
+|   `-- full_consumption_passage_hybrid_df.csv
+|-- b100/
+|   |-- TargetXGB_b100.csv
+|   `-- b100_structured_hybrid_df.csv    <- extended CI columns
+`-- engineered/
+    `-- XGB_FULL_exogenous_input.csv     <- all engineered features
 ```
 
 **Column structure (calling/transit):**

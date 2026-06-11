@@ -1,3 +1,4 @@
+AGENTS.md
 airflow-env/
 __pycache__/
 **/__pycache__/
@@ -11,7 +12,12 @@ projects/*
 excalidraws/
 career_path_master.txt
 .vscode/
+00engseer.code-workspace
 .aiexclude
 .codex-local-backup/
+.claude/
+tools/
 Citadel
 Citadel/
+*.docx
+*.pdf

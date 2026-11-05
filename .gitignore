@@ -17,6 +17,7 @@ career_path_master.txt
 .codex-local-backup/
 .claude/
 tools/
+tmp/
 Citadel
 Citadel/
 *.docx
